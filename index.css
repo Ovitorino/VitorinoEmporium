@@ -1,58 +1,14 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .topo {
-    position: relative;
-    height: 100px; /* Defina a altura desejada para o topo */
-  }
-  
-
-  .cor-laranja {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 110%; /* Ocupa 70% do header */
-    background: linear-gradient(to bottom, #ff9900, #ff6600); /* Degradê laranja para bege */  
-  }
-
-  .cor-laranja h1{
-    font-size: 50px;
-    font-family: 'Redfighter', sans-serif;
-    padding-top: 30px;
-    padding-left: 25px;                                                    
-  }
-
-
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 7%;
-  }
-  
-  .card {
-    width: 300px;
-    border: 1px solid #ccc;
-    margin: 0 10px; /* Margem nos cards para distanciá-los das bordas */
-    padding: 20px; /* Espaçamento interno dentro dos cards */
+.carousel-item img {
+  height: 700px; /* Set your desired height */
+  object-fit: cover; /* Ensures the image covers the specified height and width */
 }
 
-.imagem-pequena {
-  padding-left: 10rem; /* Espaçamento à esquerda */
-  padding-right: 10rem; /* Espaçamento à direita */
-  max-width: 40rem;
-  margin-top: 15%;
-  margin-bottom: 15%;
+footer {
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
 
-.carousel-control-next-icon {
-  background-color: #000000; /* Define a cor preta (#000) */
+footer p {
+   margin-bottom: 20px;
+   line-height: 1.5;
 }
-
-.carousel-control-prev-icon {
-  background-color: #000000; /* Define a cor preta (#000) */
-}
-  
